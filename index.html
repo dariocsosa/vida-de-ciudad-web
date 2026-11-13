@@ -170,23 +170,23 @@ button.btn:disabled{opacity:.5;cursor:default}
 <main>
 
 <header class="hero" id="inicio">
-  <div class="kicker">Revisión conjunta · noviembre 2026</div>
-  <h1>Vida de Ciudad: lo que ya funciona y lo que podríamos afinar juntos</h1>
-  <p class="sub">Roberto, leímos tu propuesta completa y la contrastamos con datos de Barranquilla, de otros observatorios cívicos y del marco tributario. Tu documento está muy bien armado: aquí te mostramos qué nos gustó, algunas ideas para fortalecerlo y, donde tenemos dudas, te preguntamos a ti, que conoces la ciudad y a los empresarios.</p>
+  <div class="kicker">Revisión de la propuesta · noviembre 2026</div>
+  <h1>Vida de Ciudad: lo que ya funciona y mis recomendaciones</h1>
+  <p class="sub">A partir de la lectura de tu propuesta completa, la contrasté con datos de Barranquilla, de otros observatorios cívicos y del marco tributario. Tu documento está muy bien armado: acá te cuento qué me gustó, te dejo recomendaciones para fortalecerlo y, donde me quedan dudas, te pregunto a vos, que conocés la ciudad y a los empresarios.</p>
   <div class="hint">
-    <b>Cómo usar esta página.</b> Son 16 preguntas cortas repartidas en cinco bloques. Marca una opción y, si quieres, escribe una observación. <b>Todo se guarda solo</b> y puedes volver cuando quieras; no hay respuestas correctas, la idea es conversar. Al terminar, el botón «Enviar por WhatsApp» nos manda tus respuestas.
+    <b>Cómo usar esta página.</b> Son 16 preguntas cortas repartidas en cinco bloques. Marcá una opción y, si querés, escribí una observación. <b>Todo se guarda solo</b> y podés volver cuando quieras; no hay respuestas correctas, la idea es conversar. Al terminar, el botón «Enviar por WhatsApp» me manda tus respuestas.
   </div>
   <div class="tags" aria-label="Cómo leer las etiquetas">
     <span class="tag d">[DATO] con fuente</span>
     <span class="tag c">[CÁLCULO] aritmética con supuestos a la vista</span>
-    <span class="tag i">[INFERENCIA] criterio nuestro, para discutir</span>
+    <span class="tag i">[INFERENCIA] criterio mío, para discutir</span>
   </div>
   <p class="small">Documento de trabajo. No es asesoría legal ni tributaria: los puntos jurídicos y de impuestos deben confirmarse con tu contador y tu abogado.</p>
 </header>
 
 <section id="inicio-bien">
   <div class="kicker">Antes de entrar en detalle</div>
-  <h2>Lo que más nos gustó</h2>
+  <h2>Lo que más me gustó</h2>
   <div class="cards">
     <div class="card"><h3>El momento es el correcto</h3><p>Llegar con una plataforma de ciudad antes de las elecciones de octubre de 2027 es una ventana real: el debate público se va a mover hacia lo local y las empresas van a querer una conversación informada.</p></div>
     <div class="card"><h3>El modelo está bien pensado</h3><p>Costos, ingresos y utilidad cuadran entre sí, y los 906 M de costos están desglosados rubro por rubro. Eso es poco común en una propuesta y facilita muchísimo la conversación con un aliado exigente.</p></div>
@@ -203,7 +203,7 @@ button.btn:disabled{opacity:.5;cursor:default}
   </div>
   <figure><h4>De los ingresos a la utilidad, según tu modelo</h4><p class="cap">Millones de COP, año 1. [DATO] del documento V5.</p><div id="waterfall"></div></figure>
 
-  <div class="layer l-idea"><div class="lb">Una idea para fortalecerlo</div>
+  <div class="layer l-idea"><div class="lb">Mi recomendación</div>
     <p>El modelo supone los 15 aliados desde el mes 1 y márgenes cercanos al 50 %. Un aliado exigente va a preguntar «¿y si entran de a poco?». Una forma de responderle antes de que lo pregunte es mostrar un caso base con rampa (5 aliados al inicio, 10 a mitad de año, 15 al final) y con las otras líneas al 50 %.</p>
     <ul>
       <li>El punto de equilibrio pasaría de 5 aliados a entre 8 y 11, según qué tanto rindan las otras líneas. <span class="tag c">CÁLCULO</span></li>
@@ -215,7 +215,7 @@ button.btn:disabled{opacity:.5;cursor:default}
   <figure><h4>Caja acumulada mes a mes en el año 1 con rampa de aliados (5 → 10 → 15)</h4><p class="cap">Millones de COP. La línea punteada es la reserva operativa de 130 M del documento. [CÁLCULO] propio.</p><div id="cashChart"></div></figure>
 
   <figure>
-    <h4>Pruébalo tú mismo</h4><p class="cap">Mueve los supuestos y mira cómo cambian el resultado y el equilibrio. [CÁLCULO] sobre costos y otras líneas del documento.</p>
+    <h4>Probalo vos mismo</h4><p class="cap">Mové los supuestos y mirá cómo cambian el resultado y el equilibrio. [CÁLCULO] sobre costos y otras líneas del documento.</p>
     <div class="calc">
       <div>
         <label>Aliados al cierre del año <b id="vAl">15</b></label><input type="range" id="inAl" min="3" max="15" step="1" value="15">
@@ -236,20 +236,20 @@ button.btn:disabled{opacity:.5;cursor:default}
     </div>
   </figure>
 
-  <div class="callout warn"><p><strong>Sobre la cuota de 84 M (unos USD 25.400).</strong> No encontramos una cuota publicada de otros observatorios cívicos con la cual compararla, así que no podemos decir si es alta o baja. Por eso preferimos preguntarte y, si te parece, probarla con unas pocas empresas antes de la convocatoria. <span class="tag i">INFERENCIA</span></p></div>
+  <div class="callout warn"><p><strong>Sobre la cuota de 84 M (unos USD 25.400).</strong> No encontré una cuota publicada de otros observatorios cívicos con la cual compararla, así que no puedo decir si es alta o baja. Por eso prefiero preguntarte y, si te parece, probarla con unas pocas empresas antes de la convocatoria. <span class="tag i">INFERENCIA</span></p></div>
 
   <h3>Tus respuestas sobre los números</h3>
   <div class="qs" data-block="1 · Números">
     <div id="Q1"></div><div id="Q2"></div><div id="Q3"></div><div id="Q4"></div><div id="Q5"></div>
   </div>
-  <div class="layer l-ok"><div class="lb">Lo que ya tienes a favor</div><p>Con un desglose de costos tan claro, ajustar estos puntos es cuestión de mover supuestos en tu mismo modelo, no de rehacerlo.</p></div>
+  <div class="layer l-ok"><div class="lb">Lo que ya tenés a favor</div><p>Con un desglose de costos tan claro, ajustar estos puntos es cuestión de mover supuestos en tu mismo modelo, no de rehacerlo.</p></div>
 </section>
 
 <section id="estructura">
   <div class="kicker">2 · Estructura jurídica y tributaria</div>
   <h2>Qué le conviene más al aliado: contratar con la SAS o donar a una fundación</h2>
-  <div class="layer l-ok"><div class="lb">Lo que funciona</div><p>Tu propuesta ya piensa en la credibilidad: hablar de un consejo fundacional muestra que quieres que la plataforma sea de la ciudad y no solo de una empresa. Esa intuición es muy buena.</p></div>
-  <div class="layer l-idea"><div class="lb">Una idea para fortalecerlo</div>
+  <div class="layer l-ok"><div class="lb">Lo que funciona</div><p>Tu propuesta ya piensa en la credibilidad: hablar de un consejo fundacional muestra que querés que la plataforma sea de la ciudad y no solo de una empresa. Esa intuición es muy buena.</p></div>
+  <div class="layer l-idea"><div class="lb">Mi recomendación</div>
     <p>Para el aliado hay dos caminos con ahorros distintos. Con una SAS, el aporte puede tratarse como gasto deducible; con una fundación del régimen especial, como donación con descuento. <span class="tag i">INFERENCIA</span> a confirmar con tu contador.</p>
     <ul><li>Gasto deducible en la SAS: ahorro de unos 29,4 M sobre 84 M a tarifa de 35 %.</li><li>Donación a una fundación calificada: ahorro de unos 21 M (descuento del 25 %). Calificarse como fundación del régimen especial toma de 4 a 7 meses.</li></ul>
     <p>Una ruta <b>híbrida por fases</b> podría combinar lo mejor: arrancar con la SAS (más rápida y con mejor ahorro) y crear la fundación en paralelo para dar credibilidad y recibir donaciones después.</p>
@@ -264,9 +264,9 @@ button.btn:disabled{opacity:.5;cursor:default}
   <div class="kicker">3 · Gobierno editorial y posicionamiento</div>
   <h2>Que la independencia se pueda ver, no solo se prometa</h2>
   <div class="layer l-ok"><div class="lb">Lo que funciona</div><p>Los principios que escribiste (independencia, rigor, conversación con la ciudad) son exactamente los que los observatorios cívicos más respetados declaran. Vas por buen camino.</p></div>
-  <div class="layer l-idea"><div class="lb">Una idea para fortalecerlo</div>
+  <div class="layer l-idea"><div class="lb">Mi recomendación</div>
     <p>Los observatorios que mejor funcionan convierten esos principios en mecanismos que un tercero pueda verificar: un comité editorial nombrado por terna, una separación entre quien aporta y quien decide el contenido, y la divulgación pública de aportes. Hoy el documento deja dos puntos por aclarar, que son los de las preguntas de abajo.</p></div>
-  <figure><h4>Hoy y propuesta: dónde pondríamos el firewall</h4><p class="cap">Izquierda, como lo describe el documento; derecha, una forma de separar aportes y contenido. [INFERENCIA] sobre estándares de Transparify, JTI y casos como el Texas Tribune.</p><div id="govDiagram"></div></figure>
+  <figure><h4>Hoy y propuesta: dónde pondría el firewall</h4><p class="cap">Izquierda, como lo describe el documento; derecha, una forma de separar aportes y contenido. [INFERENCIA] sobre estándares de Transparify, JTI y casos como el Texas Tribune.</p><div id="govDiagram"></div></figure>
   <p><b>Otro actor a considerar.</b> Barranquilla Cómo Vamos, operado por la Universidad del Norte, ya mide movilidad, seguridad y otros temas de la ciudad. [DATO] Su trabajo y el de Vida de Ciudad pueden complementarse, y una conversación temprana evita que un aliado pregunte «¿en qué se diferencian?» antes de que tengas la respuesta lista.</p>
   <h3>Tus respuestas sobre el gobierno editorial</h3>
   <div class="qs" data-block="3 · Gobierno editorial"><div id="Q9"></div><div id="Q10"></div><div id="Q11"></div></div>
@@ -274,13 +274,13 @@ button.btn:disabled{opacity:.5;cursor:default}
 
 <section id="videos">
   <div class="kicker">4 · Los cuatro videos piloto</div>
-  <h2>Ya tienes buen material; cuestión de orden y de encuadre</h2>
+  <h2>Ya tenés buen material; cuestión de orden y de encuadre</h2>
   <div class="layer l-ok"><div class="lb">Lo que funciona</div><p>Los cuatro temas son de ciudad real y tocan lo que los empresarios sienten a diario. Para un primer encuentro, que sean historias y no un informe es una gran decisión.</p></div>
-  <div class="layer l-idea"><div class="lb">Una idea para fortalecerlo</div><p>Cada pieza tiene un punto fuerte y un cuidado distinto. Abajo los resumimos y proponemos un orden para la primera sesión. La solidez que marcamos es una lectura nuestra de qué tan documentada está la tesis hoy. <span class="tag i">INFERENCIA</span></p></div>
+  <div class="layer l-idea"><div class="lb">Mi recomendación</div><p>Cada pieza tiene un punto fuerte y un cuidado distinto. Abajo los resumo y propongo un orden para la primera sesión. La solidez que marco es una lectura mía de qué tan documentada está la tesis hoy. <span class="tag i">INFERENCIA</span></p></div>
   <div class="cards" id="videoCards"></div>
   <div class="twocol">
     <figure><h4>Minutos por cada 10 km</h4><p class="cap">Barranquilla Cómo Vamos. [DATO]</p><div id="timeChart"></div></figure>
-    <figure><h4>Pasajeros de Transmetro, millones</h4><p class="cap">2019 y 2025 son [DATO]; 2026 es una extrapolación ilustrativa nuestra.</p><div id="transChart"></div></figure>
+    <figure><h4>Pasajeros de Transmetro, millones</h4><p class="cap">2019 y 2025 son [DATO]; 2026 es una extrapolación ilustrativa mía.</p><div id="transChart"></div></figure>
   </div>
   <h3>Tus respuestas sobre los videos</h3>
   <div class="qs" data-block="4 · Videos"><div id="Q12"></div><div id="Q13"></div></div>
@@ -289,9 +289,9 @@ button.btn:disabled{opacity:.5;cursor:default}
 <section id="venta">
   <div class="kicker">5 · Venta y calendario</div>
   <h2>La ventana electoral marca el reloj</h2>
-  <div class="layer l-ok"><div class="lb">Lo que funciona</div><p>Pasar el sombrero al final de la sesión, con los videos ya vistos, es mucho más fuerte que pedir al comienzo. Además, ya tienes los 15 nombres en mente.</p></div>
-  <div class="layer l-idea"><div class="lb">Una idea para fortalecerlo</div><p>Antes de la convocatoria grande, una fase «silenciosa» con 3 a 5 aliados ancla ayuda a que la sesión llegue con un primer sí. Y fijar una cantidad mínima (por ejemplo 8) con cartas de intención condicionales evita arrancar sin caja suficiente. El calendario electoral hace que el lanzamiento convenga antes del 30 de junio de 2027. <span class="tag i">INFERENCIA</span></p></div>
-  <figure><h4>Del primer contacto a las elecciones</h4><p class="cap">Fechas electorales [DATO]; las fases de venta son una propuesta nuestra.</p><div id="timeline"></div></figure>
+  <div class="layer l-ok"><div class="lb">Lo que funciona</div><p>Pasar el sombrero al final de la sesión, con los videos ya vistos, es mucho más fuerte que pedir al comienzo. Además, ya tenés los 15 nombres en mente.</p></div>
+  <div class="layer l-idea"><div class="lb">Mi recomendación</div><p>Antes de la convocatoria grande, una fase «silenciosa» con 3 a 5 aliados ancla ayuda a que la sesión llegue con un primer sí. Y fijar una cantidad mínima (por ejemplo 8) con cartas de intención condicionales evita arrancar sin caja suficiente. El calendario electoral hace que el lanzamiento convenga antes del 30 de junio de 2027. <span class="tag i">INFERENCIA</span></p></div>
+  <figure><h4>Del primer contacto a las elecciones</h4><p class="cap">Fechas electorales [DATO]; las fases de venta son una propuesta mía.</p><div id="timeline"></div></figure>
   <h3>Tus respuestas sobre venta y calendario</h3>
   <div class="qs" data-block="5 · Venta y calendario"><div id="Q14"></div><div id="Q15"></div><div id="Q16"></div></div>
 </section>
@@ -299,10 +299,10 @@ button.btn:disabled{opacity:.5;cursor:default}
 <section id="cierre">
   <div class="kicker">Cierre</div>
   <h2>Lo que queda más fuerte con estos ajustes</h2>
-  <div class="layer l-ok"><div class="lb">Lo que ya está muy bien</div><p>Una propuesta con tema claro, momento oportuno y números ordenados. Los ajustes que sugerimos no cambian la idea: la hacen más fácil de defender ante un aliado que pregunte con lupa.</p></div>
-  <div class="layer l-idea"><div class="lb">Lo que sigue</div><ol><li>Tú respondes lo que puedas aquí; lo demás lo hablamos.</li><li>Con tus respuestas ajustamos el modelo (rampa, caja y cuota) y te devolvemos la versión nueva.</li><li>Con tu contador y abogado confirmamos la estructura antes de la convocatoria.</li></ol></div>
-  <div class="q" id="QF"><div class="qh">Para terminar</div><p class="qt">¿Hay algo importante que no preguntamos?</p><textarea id="ta-QF" placeholder="Lo que quieras contarnos…"></textarea><div class="st" id="st-QF"></div></div>
-  <div class="layer l-ok"><div class="lb">Gracias</div><p>Gracias por compartir tu proyecto y por la disposición. Se nota el trabajo que hay detrás, y queremos que le vaya muy bien.</p></div>
+  <div class="layer l-ok"><div class="lb">Lo que ya está muy bien</div><p>Una propuesta con tema claro, momento oportuno y números ordenados. Los ajustes que sugiero no cambian la idea: la hacen más fácil de defender ante un aliado que pregunte con lupa.</p></div>
+  <div class="layer l-idea"><div class="lb">Lo que sigue</div><ol><li>Vos respondés lo que puedas acá; lo demás lo hablamos.</li><li>Con tus respuestas ajusto el modelo (rampa, caja y cuota) y te devuelvo la versión nueva.</li><li>Con tu contador y abogado confirmamos la estructura antes de la convocatoria.</li></ol></div>
+  <div class="q" id="QF"><div class="qh">Para terminar</div><p class="qt">¿Hay algo importante que no te pregunté?</p><textarea id="ta-QF" placeholder="Lo que quieras contarme…"></textarea><div class="st" id="st-QF"></div></div>
+  <div class="layer l-ok"><div class="lb">Gracias</div><p>Gracias por compartir tu proyecto y por la disposición. Se nota el trabajo que hay detrás, y quiero que le vaya muy bien.</p></div>
 </section>
 
 <div id="bar"><span id="progTxt">0 de 16 respondidas</span><div class="prog"><i id="progBar"></i></div><span id="saveState" class="small"></span><button class="btn" id="btnCopy" style="background:var(--surface2);color:var(--ink);border:1px solid var(--line)">Copiar respuestas</button><button class="btn" id="btnDone">Enviar por WhatsApp</button></div>
@@ -478,20 +478,20 @@ hbar('transChart',[{l:'2019',v:43.3,c:'f1',t:'43,3'},{l:'2025',v:19.3,c:'f1',t:'
 
 /* ===== preguntas ===== */
 var Q=[
- {id:'Q1',b:'1 · Números',t:'Los 300 M de capital inicial, ¿están dentro de los 906 M de costos del año 1 o se suman a ellos?',c:'El documento los menciona (plataforma, producción y posicionamiento, unos 170 M) y también una reserva operativa de 130 M, pero no queda claro si es dinero adicional.',o:['Están dentro de los 906 M','Se suman a los 906 M','Una parte sí y otra no (cuéntanos en observaciones)']},
+ {id:'Q1',b:'1 · Números',t:'Los 300 M de capital inicial, ¿están dentro de los 906 M de costos del año 1 o se suman a ellos?',c:'El documento los menciona (plataforma, producción y posicionamiento, unos 170 M) y también una reserva operativa de 130 M, pero no queda claro si es dinero adicional.',o:['Están dentro de los 906 M','Se suman a los 906 M','Una parte sí y otra no (contame en observaciones)']},
  {id:'Q2',b:'1 · Números',t:'¿Cómo pagaría el aliado su cuota de 84 M?',c:'El modelo supone todo desde el mes 1. Cuándo entra el dinero cambia la caja del año.',o:['Anual, por adelantado','Trimestral','Mensual','Aún no está definido']},
- {id:'Q3',b:'1 · Números',t:'Sobre la cuota de 84 M por aliado, ¿cuál camino te parece mejor?',c:'No hallamos una cuota pública comparable, así que cualquier camino debería validarse con empresas reales.',o:['Mantener 84 M para todos','Una escalera de tres niveles: 30–40 M, 50–60 M y 84 M','Probar primero con 5 u 8 empresas y decidir después','Otra idea (cuéntanos)']},
+ {id:'Q3',b:'1 · Números',t:'Sobre la cuota de 84 M por aliado, ¿cuál camino te parece mejor?',c:'No hallé una cuota pública comparable, así que cualquier camino debería validarse con empresas reales.',o:['Mantener 84 M para todos','Una escalera de tres niveles: 30–40 M, 50–60 M y 84 M','Probar primero con 5 u 8 empresas y decidir después','Otra idea (contame)']},
  {id:'Q4',b:'1 · Números',t:'¿Alguna empresa ya te dijo que sí, aunque sea de palabra?',c:'Aunque no esté firmado, ayuda a saber si el primer ancla ya existe.',o:['Sí, una o más','Hay interés, pero nada más','Todavía no he hablado con ninguna']},
- {id:'Q5',b:'1 · Números',t:'Para el caso base, ¿con qué supuesto te sientes más cómodo en las otras líneas (pauta, eventos y estudios: 540 M)?',c:'Proponemos usar el 50 % como caso base, y dejar el 100 % como meta.',o:['50 % como caso base y 100 % como meta','100 % como en el documento','Otro porcentaje (cuéntanos)']},
+ {id:'Q5',b:'1 · Números',t:'Para el caso base, ¿con qué supuesto te sentís más cómodo en las otras líneas (pauta, eventos y estudios: 540 M)?',c:'Propongo usar el 50 % como caso base, y dejar el 100 % como meta.',o:['50 % como caso base y 100 % como meta','100 % como en el documento','Otro porcentaje (contame)']},
  {id:'Q6',b:'2 · Estructura',t:'¿Qué estructura te parece mejor para recibir el aporte del aliado?',c:'Resumen: la SAS da más ahorro al aliado; la fundación da más credibilidad pero requiere un trámite de 4 a 7 meses.',o:['SAS como hoy','Fundación desde el inicio','Híbrida por fases: SAS al arrancar y fundación en paralelo','Aún no lo sé; prefiero hablarlo con mi contador']},
  {id:'Q7',b:'2 · Estructura',t:'¿Ya existe una fundación o hay una en trámite?',c:'Mientras no exista, el nombre «Consejo Fundacional» podría confundirse.',o:['Sí, existe','Está en trámite','No']},
- {id:'Q8',b:'2 · Estructura',t:'Si todavía no hay fundación, ¿te parece bien llamarlo «Consejo de Aliados» mientras tanto?',c:'Así se evita prometer una figura que aún no existe.',o:['Sí','No, prefiero mantener el nombre actual (cuéntanos por qué)']},
+ {id:'Q8',b:'2 · Estructura',t:'Si todavía no hay fundación, ¿te parece bien llamarlo «Consejo de Aliados» mientras tanto?',c:'Así se evita prometer una figura que aún no existe.',o:['Sí','No, prefiero mantener el nombre actual (contame por qué)']},
  {id:'Q9',b:'3 · Gobierno editorial',t:'¿Quién nombraría al Comité Editorial?',c:'La clave es que quien aporta no decida el contenido.',o:['Una terna propuesta por academia y sociedad civil, y elegida por la dirección','Los aliados','La Dirección Ejecutiva','Aún no lo he definido']},
  {id:'Q10',b:'3 · Gobierno editorial',t:'El documento dice «no somos una consultora» pero también vende estudios (Línea 4: Inteligencia territorial, 60 M). ¿Cómo lo resolverías?',c:'Es el punto que más preguntas podría generar en un aliado atento.',o:['Separar los estudios bajo otra marca','Retirar los estudios de la plataforma','Mantenerlos con reglas claras (qué se acepta y qué no)','Aún no lo he definido']},
  {id:'Q11',b:'3 · Gobierno editorial',t:'¿Hablarías con Barranquilla Cómo Vamos antes de convocar a los empresarios?',c:'Para declarar complementariedad y evitar la pregunta «¿en qué se diferencian?».',o:['Sí, antes de convocar','Sí, pero después','No lo veo necesario','Ya hablé con ellos']},
- {id:'Q12',b:'4 · Videos',t:'¿Qué orden te gusta para la primera sesión?',c:'Propuesta: V1 abre (60–90 s), V2 es la pieza principal, V3 se reencuadra (río y puerto) y V4 queda fuera de la primera sesión.',o:['La propuesta de arriba','Los cuatro, como están en el documento','Otro orden (cuéntanos)']},
+ {id:'Q12',b:'4 · Videos',t:'¿Qué orden te gusta para la primera sesión?',c:'Propuesta: V1 abre (60–90 s), V2 es la pieza principal, V3 se reencuadra (río y puerto) y V4 queda fuera de la primera sesión.',o:['La propuesta de arriba','Los cuatro, como están en el documento','Otro orden (contame)']},
  {id:'Q13',b:'4 · Videos',t:'Grupo Argos, ¿es aliado, prospecto o ninguna de las dos?',c:'Si es aliado, la pieza V4 debería llevar la divulgación del vínculo.',o:['Es aliado confirmado','Es un prospecto','No se ha hablado con ellos']},
- {id:'Q14',b:'5 · Venta y calendario',t:'Antes de lanzar, ¿pondrías un mínimo de aliados con cartas de intención condicionales?',c:'Proponemos 8; con menos, la caja del primer año es muy ajustada.',o:['Sí, 8 aliados','Sí, pero otra cifra (cuéntanos)','No pondría mínimo']},
+ {id:'Q14',b:'5 · Venta y calendario',t:'Antes de lanzar, ¿pondrías un mínimo de aliados con cartas de intención condicionales?',c:'Propongo 8; con menos, la caja del primer año es muy ajustada.',o:['Sí, 8 aliados','Sí, pero otra cifra (contame)','No pondría mínimo']},
  {id:'Q15',b:'5 · Venta y calendario',t:'¿Es viable que Vida de Ciudad quede lanzada antes del 30 de junio de 2027?',c:'Ese día abre la inscripción de candidaturas para las elecciones del 31 de octubre de 2027.',o:['Sí','No','Depende de cuántos aliados se consigan']},
  {id:'Q16',b:'5 · Venta y calendario',t:'¿Te parece bien acordar un protocolo electoral (qué se publica y cuándo, uso de datos y encuestas) antes de arrancar?',c:'Evita que la plataforma se lea como parte de una campaña.',o:['Sí','No','Lo veo, pero más adelante']}
 ];
@@ -521,7 +521,7 @@ function render(q){
   $('ta-'+q.id).addEventListener('input',function(){STATE[q.id]=STATE[q.id]||{};STATE[q.id].o=this.value;lsSet();queue(q)});
 }
 Q.forEach(function(q){render(q)});
-$('ta-QF').addEventListener('input',function(){STATE.QF={o:this.value};lsSet();clearTimeout(timers.QF);timers.QF=setTimeout(function(){send('QF','Cierre','Cierre','¿Hay algo importante que no preguntamos?','',STATE.QF.o)},900)});
+$('ta-QF').addEventListener('input',function(){STATE.QF={o:this.value};lsSet();clearTimeout(timers.QF);timers.QF=setTimeout(function(){send('QF','Cierre','Cierre','¿Hay algo importante que no te pregunté?','',STATE.QF.o)},900)});
 STATE=lsGet();Q.forEach(function(q){if(STATE[q.id])render(q)});if(STATE.QF)$('ta-QF').value=STATE.QF.o||'';updateProg();
 /* restaurar desde el servidor */
 if(CONFIG.endpoint&&CONFIG.endpoint.indexOf('http')===0){
@@ -545,8 +545,8 @@ $('btnDone').addEventListener('click',function(){
 $('btnCopy').addEventListener('click',function(){
   var b=this,t=resumen();
   function ok(){b.textContent='Copiado ✓';setTimeout(function(){b.textContent='Copiar respuestas'},2500)}
-  if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(t).then(ok,function(){window.prompt('Copia este texto:',t)});
-  else window.prompt('Copia este texto:',t);
+  if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(t).then(ok,function(){window.prompt('Copiá este texto:',t)});
+  else window.prompt('Copiá este texto:',t);
 });
 })();
 </script>
